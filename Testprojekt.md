@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Testprojekt
+description: Eine Testbeschreibung
 ---
 # Test123
 
