@@ -34,8 +34,9 @@ function makeMove(){
   }
   if (!this.innerText){
     this.innerText = turns % 2 == 0 ? "X" : "O";
+    turns++;
   }
-  turns++;
+  
   if (turns > 4){
     for (comb of wincons){
       if (fields[comb[0]].innerText !== "" && fields[comb[0]].innerText === fields[comb[1]].innerText && fields[comb[0]].innerText === fields[comb[2]].innerText){
