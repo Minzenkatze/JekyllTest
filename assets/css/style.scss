@@ -66,9 +66,13 @@ body {
 }
 .main-content{
     margin: unset;
+    width: 100%;
     max-width: 75%;
+    flex-grow: 1;
     background-color: var(--background);
-    color: var(--text-color)
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
 }
 
 /* footer */
@@ -78,4 +82,32 @@ body {
     justify-content: flex-end;
     margin-top: 0;
     border-top: unset;
+}
+
+/* Tic Tac Toe*/
+.centered{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#tic-tac-toe-board{
+    td{
+        border: 2px solid rgb(0, 87, 158);
+        height: 5rem;
+        width: 5rem;
+        text-align: center;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    background-color: aquamarine;
+    width: auto;
+    margin: 1rem;
+}
+
+#winner{
+    height: 5rem;
+    width: 20rem;
+    text-align: center;
 }
