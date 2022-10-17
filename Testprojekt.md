@@ -2,7 +2,7 @@
 layout: default
 title: Testprojekt
 description: Eine Testbeschreibung
-custom_js: color_changer.js
+custom_js: app.js
 ---
 # Test123
 

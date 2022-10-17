@@ -5,10 +5,7 @@ description: Ein Unity Spiel
 custom_css: unity_game_assets/TemplateData/style.css
 ---
 
-<h1 id="title">Title</h1>
-<div>
-  <div>This is a game i am working on, mostly for testing purposes.</div>
-</div>
+<h1 id="title">Need Healing!</h1>
 <div id="unity-container" class="unity-desktop">
   <canvas id="unity-canvas" width=960 height=600></canvas>
   <div id="unity-loading-bar">
@@ -55,14 +52,14 @@ custom_css: unity_game_assets/TemplateData/style.css
   }
 
   var buildUrl = "{{'/assets/unity_game_assets/Build' | relative_url }}";
-  var loaderUrl = buildUrl + "/WebGLTest.loader.js";
+  var loaderUrl = buildUrl + "/Complete.loader.js";
   var config = {
-    dataUrl: buildUrl + "/WebGLTest.data.unityweb",
-    frameworkUrl: buildUrl + "/WebGLTest.framework.js.unityweb",
-    codeUrl: buildUrl + "/WebGLTest.wasm.unityweb",
+    dataUrl: buildUrl + "/Complete.data",
+    frameworkUrl: buildUrl + "/Complete.framework.js",
+    codeUrl: buildUrl + "/Complete.wasm",
     streamingAssetsUrl: "{{'/assets/unity_game_assets/StreamingAssets' | relative_url }}",
     companyName: "DefaultCompany",
-    productName: "Tutorial",
+    productName: "Need Healing!",
     productVersion: "0.1",
     showBanner: unityShowBanner,
   };
@@ -110,5 +107,5 @@ custom_css: unity_game_assets/TemplateData/style.css
       alert(message);
     });
   };
-  document.querySelector("#unity-canvas").appendChild(script);
+  document.body.appendChild(script);
 </script>

@@ -2,6 +2,8 @@
 ---
 
 @import "{{ site.theme }}";
+
+
 :root{
     --background: rgb(0, 26, 83);
     --text-color: rgb(55, 109, 226);
@@ -18,7 +20,9 @@ body {
     flex-direction: column;
     margin: 0;
     min-height: 100%;
+    font-family: "Ubuntu", sans-serif;
 }
+
 /* header section */
 .page-header {
     background-color: var(--header-color);
