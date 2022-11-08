@@ -1,4 +1,4 @@
-#title { font-size: 2em; font-weight: bold; text-align: center; font-family: Arial; margin-top: 2em;}
+#title { font-size: 2em; font-weight: bold; text-align: center; font-family: 'Montserrat', sans-serif; margin-top: 2em;}
 .flex-container {
     display: flex;
     background-color: aqua;
