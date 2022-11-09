@@ -6,6 +6,6 @@ custom_js: app.js
 ---
 # Test123
 
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Button ändert die Hintergrundfarbe des Hauptelements.
 
 <button type="button" onclick="ranColor()">Click me!</button>

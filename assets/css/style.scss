@@ -478,7 +478,7 @@ body {
 }
 .navbar{
     background-color: rgb(1, 143, 100);
-    min-width:12rem;
+    min-width:10%;
     min-height: 100%;
 
     ul{
@@ -512,7 +512,7 @@ body {
 .main-content{
     max-width: unset;
     width: 100%;
-    margin-right: 12rem;
+    margin-right: 10%;
     flex-grow: 1;
     background-color: var(--background);
     color: var(--text-color);
@@ -525,7 +525,6 @@ body {
 .site-footer{
     background-color: var(--header-color);
     width: 100%;
-    justify-content: flex-end;
     margin-top: 0;
     border-top: unset;
 }
