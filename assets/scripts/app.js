@@ -3,7 +3,6 @@ const ranColor = function () {
   const randomIndex = Math.floor(Math.random()*colors.length);
   const chosen = colors[randomIndex];
   document.querySelector(".main-content").style.backgroundColor = chosen;
-  console.log('The user clicked and set the background color to ' + chosen);
 }
 
 
